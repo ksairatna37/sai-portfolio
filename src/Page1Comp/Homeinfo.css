@@ -1,0 +1,27 @@
+.Homeinfo {
+  color: white;
+  height: 80vh;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 250px 0px 250px;
+  letter-spacing: 2px;
+  justify-content: center;
+  align-items: center;
+}
+
+.myname{
+  font-family: "Shadows Into Light", cursive;
+  font-size: 100px;
+  font-weight: 700;
+  padding: 10px 0;
+  line-height: 75px;
+}
+.myname_para{
+  font-family: "Montserrat", sans-serif;
+  font-size: 45px;
+  letter-spacing: -1px;
+  font-weight: 500;
+}

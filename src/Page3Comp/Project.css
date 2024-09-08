@@ -1,0 +1,40 @@
+.ProjectPage{
+    display: flex;
+    flex-direction: column;
+}
+
+.ProjectSection{
+    position: relative;
+    height: 80vh;
+    width: inherit;
+    opacity: 1;
+    overflow-y:auto;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+}
+.ProjectSection::-webkit-scrollbar {
+    display: none; 
+}
+
+.worktitlename{
+    font-family: "Montserrat", sans-serif;
+    font-size: 150px;
+    font-weight: 600;
+    opacity: 0.5;
+    color: #dddad6;
+}
+
+.projectheader{ 
+    height: 20vh; 
+    position: sticky;
+}
+.worktitlename{
+    position: absolute;
+    padding: 0px 20px;
+    left: -350px;
+    transition: left 2s ease-in-out; 
+}
+
+.worktitlename.slide-right{
+    left: 0;
+}

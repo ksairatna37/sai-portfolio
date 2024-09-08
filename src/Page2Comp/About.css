@@ -1,0 +1,42 @@
+.AboutPageMainBody {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.aboutname {
+  position: absolute;
+  color: #dddad6;
+  z-index: -1;
+  top: -390px;
+  right: -150px;
+  font-size: 150px;
+  transform: rotate(90deg);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  transition: top 2s ease-in-out;
+  opacity: 0.5;
+}
+.scrollcontainer {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  }
+
+  .aboutname.slide-down {
+    top: 42vh; /* Final position when slide-down class is added */
+  }
+
+.animator {
+    position: relative;
+  color: #dddad6;
+  font-size: 100px;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}

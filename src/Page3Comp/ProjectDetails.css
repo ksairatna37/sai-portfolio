@@ -1,0 +1,143 @@
+.img {
+  width: 50px;
+  height: 50px;
+}
+.ProjectDetailsMainBody {
+  color: white;
+  height: inherit;
+  scroll-snap-type: y mandatory;
+  width: 100%;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+}
+.ProjectDetailsMainBody::-webkit-scrollbar {
+  display: none;
+}
+.displayworks {
+  display: flex;
+  height: inherit;
+  width: inherit;
+  scroll-snap-align: start;
+  
+}
+.works-card {
+  width: 50%;
+  height: inherit;
+}
+.works-left-side {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+}
+.work-detail {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+}
+.number {
+  font-weight: 600;
+  font-size: 32px;
+  margin-left: 30px;
+}
+
+.work-info {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.work-detail-card {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.work-name {
+  font-size: 3.8em;
+  font-weight: 600;
+  overflow: hidden;
+}
+.work-role {
+  font-size: 1.9em;
+  font-weight: 500;
+}
+.work-about {
+  font-size: 1.5em;
+  font-weight: 0;
+  line-height: 35px;
+}
+.work-same-style {
+  padding: 10px 0 10px 30px;
+}
+.dot {
+  color: #f53eff;
+}
+.work-link-svg {
+  font-size: 1.5em;
+  width: 4%;
+  margin-left: 30px;
+  padding: 10px 0 10px 0px;
+}
+.work-link-svg:hover {
+  cursor: pointer;
+}
+.work-link a {
+  text-decoration: none;
+}
+.works-right-side {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  position: relative;
+  justify-content: space-between;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  /* animation: jump 1s forwards 2; */
+}
+/* @keyframes jump {
+  0%{top: 0px}
+  16.5%{top: 6.5px;}
+  32.5%{top: 12.5px;}
+  50%{top: 20px;}
+  64.5%{top: 12.5px;}
+  80.5%{top: 6.5px;}
+  100%{top: 0px;}
+
+} */
+.works-right-side::-webkit-scrollbar {
+  display: none;
+}
+.image {
+  position: relative;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+.image img {
+  width: 600px;
+  height: 300px;
+  object-fit: fill;
+}
+.video-container {
+    position: relative;
+    width: 600px;
+    padding-left: 50px;
+}
+
+.video-container video {
+    width: 100%; 
+    height: auto; 
+}
+.works-right-side .image:nth-child(odd) {
+  padding-left: 50px;
+  align-self: flex-start; /* Align odd-numbered images (1, 3, 5) to the top left */
+}
+.works-right-side .image:nth-child(even) {
+  padding-right: 50px;
+  align-self: flex-end; /* Align even-numbered images (2, 4) to the bottom right */
+}
