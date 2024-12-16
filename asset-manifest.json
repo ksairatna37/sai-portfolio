@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/sai-portfolio/static/css/main.515f7447.css",
-    "main.js": "/sai-portfolio/static/js/main.2046e273.js",
+    "main.js": "/sai-portfolio/static/js/main.b74afc1f.js",
     "static/js/453.1407b060.chunk.js": "/sai-portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/demo.mp4": "/sai-portfolio/static/media/demo.994cde266e2569721b5b.mp4",
     "static/media/vid1.mp4": "/sai-portfolio/static/media/vid1.7e96295a48de65495c2b.mp4",
     "static/media/img3.png": "/sai-portfolio/static/media/img3.e84773c5070e6dceca56.png",
     "static/media/img1.png": "/sai-portfolio/static/media/img1.6e1e80133bd4cb6452a1.png",
     "static/media/img6.png": "/sai-portfolio/static/media/img6.5b2805bf9c990c41fa19.png",
-    "static/media/img2.png": "/sai-portfolio/static/media/img2.d9e10937d01ca9476796.png",
     "static/media/img4.png": "/sai-portfolio/static/media/img4.b12941be888adb1773ee.png",
     "static/media/img5.png": "/sai-portfolio/static/media/img5.04d415b25714047f26eb.png",
     "static/media/sai_certificate.jpg": "/sai-portfolio/static/media/sai_certificate.af654fdb1d0d3db8cdee.jpg",
     "static/media/img9.png": "/sai-portfolio/static/media/img9.355eb6f63ba6cc20d7d3.png",
+    "static/media/img2.png": "/sai-portfolio/static/media/img2.d9e10937d01ca9476796.png",
     "static/media/img8.png": "/sai-portfolio/static/media/img8.c4075d4f790a277d2287.png",
     "static/media/img7.png": "/sai-portfolio/static/media/img7.763e77f05b43d1d029f3.png",
     "static/media/img2.jpg": "/sai-portfolio/static/media/img2.24e26a3854072121b13c.jpg",
@@ -22,11 +23,11 @@
     "static/media/linkdin.svg": "/sai-portfolio/static/media/linkdin.3bd0909836e73f22bdf7f3bdb0d3ae68.svg",
     "static/media/loader.svg": "/sai-portfolio/static/media/loader.59400b496d0553d8874b.svg",
     "main.515f7447.css.map": "/sai-portfolio/static/css/main.515f7447.css.map",
-    "main.2046e273.js.map": "/sai-portfolio/static/js/main.2046e273.js.map",
+    "main.b74afc1f.js.map": "/sai-portfolio/static/js/main.b74afc1f.js.map",
     "453.1407b060.chunk.js.map": "/sai-portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.515f7447.css",
-    "static/js/main.2046e273.js"
+    "static/js/main.b74afc1f.js"
   ]
 }
