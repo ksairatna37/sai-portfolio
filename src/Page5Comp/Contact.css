@@ -21,3 +21,12 @@
 .contact-container img:hover{
     cursor: pointer;
 }
+
+@media (max-width: 576px){
+    .animate-contact-text{
+        font-size: 80px;
+    }
+    .contact-container{
+        height: 50%;
+    }
+}

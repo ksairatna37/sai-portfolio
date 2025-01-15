@@ -68,7 +68,6 @@
 }
 .work-about {
   font-size: 1.5em;
-  font-weight: 0;
   line-height: 35px;
 }
 .work-same-style {
@@ -77,9 +76,15 @@
 .dot {
   color: #f53eff;
 }
+.work-link{
+  display: flex;
+}
+.work-certificate a{
+  text-decoration: none;
+  color: white;
+}
 .work-link-svg {
   font-size: 1.5em;
-  width: 4%;
   margin-left: 30px;
   padding: 10px 0 10px 0px;
 }
@@ -98,18 +103,9 @@
   scroll-behavior: smooth;
   scrollbar-width: none;
   -ms-overflow-style: none;
-  /* animation: jump 1s forwards 2; */
-}
-/* @keyframes jump {
-  0%{top: 0px}
-  16.5%{top: 6.5px;}
-  32.5%{top: 12.5px;}
-  50%{top: 20px;}
-  64.5%{top: 12.5px;}
-  80.5%{top: 6.5px;}
-  100%{top: 0px;}
 
-} */
+}
+
 .works-right-side::-webkit-scrollbar {
   display: none;
 }
@@ -121,7 +117,7 @@
 .image img {
   width: 600px;
   height: 300px;
-  object-fit: fill;
+  object-fit: contain;
 }
 .video-container {
     position: relative;
@@ -140,4 +136,28 @@
 .works-right-side .image:nth-child(even) {
   padding-right: 50px;
   align-self: flex-end; /* Align even-numbered images (2, 4) to the bottom right */
+}
+
+@media (max-width: 576px){
+  .number{
+    font-size: 20px;
+  }
+  .work-name{
+    font-size: 45px;
+  }
+  .works-card{
+    width: 100%;
+  }
+  .work-role{
+    font-size: 25px;
+  }
+  .works-right-side {
+    display: none;
+  }
+  .work-about{
+    font-size: 20px;
+  }
+  .work-link-svg{
+    font-size: 1.2em;
+  }
 }

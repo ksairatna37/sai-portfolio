@@ -48,3 +48,28 @@
     padding-bottom: 10px;
     font-weight: 500;
 }
+
+@media (max-width: 576px){
+    .skills-container{
+        width: 80%;
+        height: 80%;
+        flex-direction:column;
+    }
+    .side-card{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .card{
+        font-size: 20px;
+    }
+    .top-card{
+        height: 55% !important;
+    }
+    .bottom-card{
+        height: 45% !important;
+    }
+    .animate-skills-text{
+        font-size: 80px;
+        left: 0;
+    }
+}

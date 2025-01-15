@@ -38,3 +38,14 @@
 .worktitlename.slide-right{
     left: 0;
 }
+
+
+@media (max-width: 576px){
+    .worktitlename{
+        font-size: 80px;
+        left: -450px;
+    }
+    .worktitlename.slide-right{
+        left: -10px;
+    }
+}

@@ -10,8 +10,14 @@ function Skills(){
             const windowHeight = window.innerHeight;
             const textPosition = scrollPosition / windowHeight * 100;
             
-            if (skillsTextRef.current) {
-                skillsTextRef.current.style.transform = `translateX(-${textPosition-200}%)`;
+            if (window.innerWidth > 576) {
+                if (skillsTextRef.current) {
+                    skillsTextRef.current.style.transform = `translateX(-${textPosition - 200}%)`;
+                }
+            } else {
+                if (skillsTextRef.current) {
+                    skillsTextRef.current.style.transform = `translateX(${textPosition - 264}%)`; 
+                }
             }
         };
 
@@ -26,7 +32,7 @@ function Skills(){
         <div className="display-skills">
             <div className="animate-skills-text" ref={skillsTextRef}>SKILLS</div>
             <div className="skills-container">
-                <div className="side-card">
+                <div className="side-card top-card">
                     <div className="card">
                         <div>C/C++</div>
                         <div>Java</div>
@@ -34,7 +40,6 @@ function Skills(){
                     </div>
                     <div className="card">
                         <div>HTML, CSS & JS</div>
-                        {/* <div>JavaScript</div> */}
                         <div>React</div>
                         <div>Django</div>
                         <div>Flutter</div>
@@ -44,15 +49,16 @@ function Skills(){
                     <div>SQL</div>
                     </div>
                 </div>
-                <div className="side-card">
+                <div className="side-card bottom-card">
                 <div className="card">
-                        <div>Product Design</div>
+                        <div>Product Development</div>
+                        <div>Data Analysis</div>
                         <div>UI/UX Design</div>
                         <div>Project Management</div>
-                        <div>Concept Development</div>
                     </div>
                     <div className="card">
                         <div>Firebase</div>
+                        <div>PowerBI</div>
                         <div>GitHub</div>
                         <div>Figma</div>
                     </div>

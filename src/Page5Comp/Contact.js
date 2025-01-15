@@ -15,8 +15,14 @@ function Contact(){
             const windowHeight = window.innerHeight;
             const textPosition = scrollPosition / windowHeight * 100;
             
-            if (skillsTextRef.current) {
-                skillsTextRef.current.style.transform = `translateX(${textPosition-350}%)`;
+            if (window.innerWidth > 576) {
+                if (skillsTextRef.current) {
+                    skillsTextRef.current.style.transform = `translateX(${textPosition - 350}%)`;
+                }
+            } else {
+                if (skillsTextRef.current) {
+                    skillsTextRef.current.style.transform = `translateX(${textPosition - 383}%)`; 
+                }
             }
         };
 
