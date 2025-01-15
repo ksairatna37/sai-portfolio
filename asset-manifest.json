@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sai-portfolio/static/css/main.5fa96620.css",
-    "main.js": "/sai-portfolio/static/js/main.f9ddf574.js",
+    "main.js": "/sai-portfolio/static/js/main.2b4a0139.js",
     "static/js/453.1407b060.chunk.js": "/sai-portfolio/static/js/453.1407b060.chunk.js",
     "static/media/demo.mp4": "/sai-portfolio/static/media/demo.994cde266e2569721b5b.mp4",
     "static/media/vid1.mp4": "/sai-portfolio/static/media/vid1.7e96295a48de65495c2b.mp4",
@@ -23,11 +23,11 @@
     "static/media/linkdin.svg": "/sai-portfolio/static/media/linkdin.3bd0909836e73f22bdf7f3bdb0d3ae68.svg",
     "static/media/loader.svg": "/sai-portfolio/static/media/loader.41d31147ed507e02f6d1.svg",
     "main.5fa96620.css.map": "/sai-portfolio/static/css/main.5fa96620.css.map",
-    "main.f9ddf574.js.map": "/sai-portfolio/static/js/main.f9ddf574.js.map",
+    "main.2b4a0139.js.map": "/sai-portfolio/static/js/main.2b4a0139.js.map",
     "453.1407b060.chunk.js.map": "/sai-portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5fa96620.css",
-    "static/js/main.f9ddf574.js"
+    "static/js/main.2b4a0139.js"
   ]
 }
