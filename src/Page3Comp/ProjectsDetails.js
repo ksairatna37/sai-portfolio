@@ -125,7 +125,7 @@ function Projects() {
             role: "Frontend Developer",
             description: "Real-time weather site with responsive design, leveraging React.js for dynamic UI components and OpenWeatherMap API for real-time data retrieval",
             type: "Web App",
-            link: "https://github.com/ksairatna37/Vatavaran",
+            link: "https://github.com/ksairatna37/weather",
             images: [
                 project1Image1,
                 project1Image2,
